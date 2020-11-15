@@ -1,10 +1,10 @@
 
-CREATE TABLE "Employees" (
-"emp_no" int   NOT NULL,
-"emp_title_id" varchar   NOT NULL,
-"birth_date" date   NOT NULL,
-"first_name" varchar   NOT NULL,
-"last_name" varchar   NOT NULL,
-"sex" varchar   NOT NULL,
-"hire_date" date   NOT NULL, 
+CREATE TABLE Employees (
+emp_no int,
+emp_title_id varchar(25),
+"birth_date" date,
+"first_name" varchar(25),
+"last_name" varchar(25),
+"sex" varchar(25),
+"hire_date" date, 
 );

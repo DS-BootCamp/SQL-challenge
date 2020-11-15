@@ -5,7 +5,7 @@ emp_title_id (int)
 birth_date (date)
 first_name (varchar)
 last_name (varchar)
-sex (F or M)
+sex (varchar)
 hire_date (date)
 
 Titles:
